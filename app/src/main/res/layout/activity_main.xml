@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/font"
+    tools:context=".MainActivity">
+
+   <EditText
+       android:id="@+id/email"
+       style="@style/ed_text"
+       android:hint="@string/input_email"
+       android:drawableStart="@drawable/ic_baseline_email_24"
+       />
+   <EditText
+       android:id="@+id/theme"
+       style="@style/ed_text"
+       android:hint="@string/theme"
+       android:drawableStart="@drawable/ic_baseline_notifications_24"
+       />
+   <EditText
+       android:id="@+id/text"
+       style="@style/ed_text"
+       android:hint="@string/text"
+       android:drawableStart="@drawable/ic_baseline_chat_bubble_24"
+       />
+
+   <Button
+       android:id="@+id/btn_send"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+      android:text="SEND"
+      android:textSize="28sp"
+      android:padding="10dp"
+      android:layout_margin="20dp"/>
+</LinearLayout>
